@@ -1,28 +1,18 @@
 {
-  "name": "BiD-ultimate-fr",
-  "title": "Blades in the Dark - Ultimate (French)",
-  "description": "Traduction du sysème Blades in the Dark de megastruktur : Système et Compendiums et ajouts divers",
+  "name": "BiD-carte-doskvol-fr",
+  "title": "Blades in the Dark - Cartes de Doskvol",
+  "description": "Cartes et plans de Doskvol et des différents quartiers de la ville",
   "version": "0.0.1",
   "author": "Cyberdwarf",
   "minimumCoreVersion": "0.5.5",
   "compatibleCoreVersion": "0.7.9",
-  "url": "https://github.com/cyberdwarf1664/Foundry-BiD-Ultimate-French",
-  "download": "https://github.com/cyberdwarf1664/Foundry-BiD-Ultimate-French/archive/main.zip",
-  "manifest": "https://raw.githubusercontent.com/cyberdwarf1664/Foundry-BiD-Ultimate-French/main/module.json",
+  "url": "https://github.com/cyberdwarf1664/Foundry-BiD-Cartes-de-Doskvol-French",
+  "download": "https://github.com/cyberdwarf1664/Foundry-BiD-Cartes-de-Doskvol-French/archive/main.zip",
+  "manifest": "https://raw.githubusercontent.com/cyberdwarf1664/Foundry-BiD-Cartes-de-Doskvol-French/main/module.json",
   
-  "languages" : [
-       {
-          "lang" : "fr",
-          "name" : "French/Français",
-          "path" : "fr.json"
-       }
-              ],
   
   "dependencies" : [
-{
-  "name": "babele",
-  "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
-},
+
 {
   "name": "backgroundless-pins",
   "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Backgroundless-Pins/master/module.json"
