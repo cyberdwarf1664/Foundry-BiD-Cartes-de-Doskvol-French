@@ -1,0 +1,50 @@
+{
+  "name": "BiD-ultimate-fr",
+  "title": "Blades in the Dark - Ultimate (French)",
+  "description": "Traduction du sysème Blades in the Dark de megastruktur : Système et Compendiums et ajouts divers",
+  "version": "0.0.1",
+  "author": "Cyberdwarf",
+  "minimumCoreVersion": "0.5.5",
+  "compatibleCoreVersion": "0.7.9",
+  "url": "https://github.com/cyberdwarf1664/Foundry-BiD-lang-fr",
+  "download": "https://github.com/cyberdwarf1664/Foundry-BiD-lang-fr/archive/main.zip",
+  "manifest": "https://raw.githubusercontent.com/cyberdwarf1664/Foundry-BiD-lang-fr/main/module.json",
+  
+  "languages" : [
+       {
+          "lang" : "fr",
+          "name" : "French/Français",
+          "path" : "fr.json"
+       }
+              ],
+  
+  "dependencies" : [
+{
+  "name": "babele",
+  "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+},
+{
+  "name": "backgroundless-pins",
+  "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Backgroundless-Pins/master/module.json"
+},
+{
+  "name": "pin-cushion",
+  "manifest": "https://raw.githubusercontent.com/death-save/pin-cushion/master/module.json"
+}
+],
+
+  "packs": [
+    {
+      "name": "plans",
+      "label": "Plans",
+      "path": "./packs/plans.db",
+      "entity": "Scene"
+    },
+    {
+      "name": "notes-et-quartiers",
+      "label": "Notes et Quartiers",
+      "path": "./packs/notes-et-quartiers.db",
+      "entity": "JournalEntry"
+    }
+]
+}
